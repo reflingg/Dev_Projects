@@ -1,0 +1,74 @@
+ // This widget is the root of your application
+  /*
+   Opererator:
+   +, -, *, /, %,
+
+   Comparision Operator
+   <, >,==, !=, <=, >=, 
+   Logical Operator
+   &&, ||, !
+   ------------------------------------------------
+   // CONTROL FLOW
+
+
+   if(condition){
+    do something
+   }
+
+   if(condition){
+    do something
+   } else if(another condition){
+    do something else
+   }
+
+
+if(condition){
+    do something
+   } else{
+    do something else
+   }
+  -------------------------------------------------
+   // Function
+   
+  */
+  // Basic function
+  // void greet(){
+  //   print("hello world");
+  // }
+  // Function wit parameter
+  // void greetPerson(String name) {
+  //   print("Hello, " + name);
+  // }
+
+  // Fuction with return
+
+  /*int add( int a, int b){
+    int sum = a + b;
+    return sum;
+  }
+    int mySum = add(3,4);
+    print(mySum);
+    ----------------------------------------------------
+    Datastructures
+
+  // LIST: orderedncolloction of elements, can have duplicates.
+  List<String> names = ["Moses", "Prince", "Nene"];
+  void printNames() {
+    for (int i = 0; i < names.length; i++) {
+      print(names);
+    }
+  }
+
+
+  // SET: unordered collection of unique elements no duplicates
+Set<String> uniqueNames ={"Mose", "Princ", "Nen"};
+
+// MAP: stored as key-value pairs
+
+Map user ={ 
+  'name': "Moses Olayinka",
+  'age': 28, 
+  'height': 180,
+};
+print(user['age']);
+*/
