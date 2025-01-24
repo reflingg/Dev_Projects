@@ -11,10 +11,15 @@ class MyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialButton(
-      onPressed: onPressed,
-      color: Colors.amber[600],
-      child: Text(text),
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.pink[600],
+        borderRadius: BorderRadius.circular(5),
+      ),
+      child: MaterialButton(
+        onPressed: onPressed,
+        child: Text(text),
+      ),
     );
   }
 }

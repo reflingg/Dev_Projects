@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.amber[600], // Set specific color here
+          backgroundColor: Colors.pink[600], // Set specific color here
         ),
       ),
     );

@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.pink[50],
       appBar: AppBar(
         // backgroundColor: Colors.amber[600],
         title: Center(
@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.amber[600],
+        backgroundColor: Colors.pink[600],
         onPressed: createNewTask,
         child: Icon(Icons.add),
       ),
