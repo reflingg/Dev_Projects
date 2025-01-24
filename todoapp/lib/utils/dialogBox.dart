@@ -24,14 +24,13 @@ class DialogBox extends StatelessWidget {
             // get user input
             TextField(
               controller: controller,
+              style: TextStyle(color: Colors.grey[800]),
               decoration: InputDecoration(
                 border: OutlineInputBorder(
-                  borderSide: BorderSide(
-                    color: Colors.white,
-                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 hintText: 'Enter Task',
+                hintStyle: TextStyle(color: Colors.pink[100]),
               ),
             ),
             // buttons -> save + cancel
