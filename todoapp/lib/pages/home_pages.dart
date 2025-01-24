@@ -82,14 +82,24 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         // backgroundColor: Colors.amber[600],
         title: Center(
-          child: Text('TO DO'),
+          child: Padding(
+            padding: const EdgeInsets.only(top: 20.0),
+            child: Text(
+              'TO DO',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         ),
         elevation: 0,
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.pink[600],
         onPressed: createNewTask,
-        child: Icon(Icons.add),
+        child: Icon(Icons.add, color: Colors.white),
       ),
       body: ListView.builder(
         itemCount: db.toDoList.length,
